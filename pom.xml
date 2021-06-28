@@ -53,12 +53,12 @@
 
     <modules>
         <module>redisson</module>
-        <module>redisson-all</module>
+        <!--<module>redisson-all</module>
         <module>redisson-tomcat</module>
         <module>redisson-spring-data</module>
         <module>redisson-spring-boot-starter</module>
         <module>redisson-mybatis</module>
-        <module>redisson-hibernate</module>
+        <module>redisson-hibernate</module>-->
     </modules>
 
     <profiles>
@@ -168,7 +168,7 @@
                 </configuration>
             </plugin>
 
-       	<plugin>
+       	<!--<plugin>
        		<groupId>org.sonatype.plugins</groupId>
        		<artifactId>nexus-staging-maven-plugin</artifactId>
        		<version>1.6.8</version>
@@ -179,7 +179,7 @@
        			<autoReleaseAfterClose>true</autoReleaseAfterClose>
                 <stagingProgressTimeoutMinutes>15</stagingProgressTimeoutMinutes>
        		</configuration>
-       	</plugin>
+       	</plugin>-->
 
 <!--
             <plugin>
